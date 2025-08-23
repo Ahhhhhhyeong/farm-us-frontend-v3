@@ -11,7 +11,7 @@ const SubHeader = ({
 }) => {
   const navigate = useNavigate();
   return (
-    <div className='w-full h-14 bg-white flex justify-between items-center px-4'>
+    <div className='w-full h-14 bg-white flex justify-between items-center px-4 sticky top-0 z-50'>
       {/* 왼쪽 뒤로가기 버튼 */}
       <div className='w-10 h-10'>
         <button className='w-10 h-10' onClick={() => navigate(-1)}>

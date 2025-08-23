@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className='w-screen h-14'>
+    <header className='w-screen h-14 sticky top-0 z-50 bg-white shadow'>
       <div className='w-full h-full flex justify-between items-center'>
         <img src={Vector} alt='Vector' className='w-[8rem] h-20 pl-3' />
 

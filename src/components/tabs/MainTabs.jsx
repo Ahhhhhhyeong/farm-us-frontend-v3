@@ -14,7 +14,7 @@ const MainTabs = () => {
   const isNotActive = `${baseStyle} text-gray-500 font-medium`;
 
   return (
-    <div className='w-full bg-white border-b-2 border-gray-300 inline-flex justify-start items-center gap-4 px-3'>
+    <div className='w-full bg-white border-b-2 border-gray-300 inline-flex justify-start items-center gap-4 px-3 sticky top-14 z-50'>
       <div
         className={`py-3 flex justify-center items-center gap-1 ${
           activeTab === 'commerce' ? 'border-b-3 border-black' : ''
