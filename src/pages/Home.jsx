@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { chipData } from '../mock/chipData';
 import Chip from '@components/badges/Chip';
-import Dropdown from '@components/inputs/Dropdown';
 
 const Home = () => {
   const [chips, setChips] = useState(chipData);
@@ -36,16 +35,7 @@ const Home = () => {
           ))}
       </div>
       {/* 컴포넌트 확인 중 */}
-      <div className='flex flex-col gap-2'>
-        <Dropdown options={['옵션 1', '옵션 2', '옵션 3']} />
-        <Dropdown
-          options={[
-            { label: '옵션 1', value: 1 },
-            { label: '옵션 2', value: 2 },
-            { label: '옵션 3', value: 3 },
-          ]}
-        />
-      </div>
+      <div className='flex flex-col gap-2'></div>
     </div>
   );
 };

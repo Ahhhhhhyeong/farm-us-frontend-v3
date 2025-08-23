@@ -2,19 +2,19 @@
 
 // --- Asset Imports ---
 // ✨ [최종 수정] 실제 폴더에 있는 이미지 파일만 사용하도록 경로를 완전히 수정했습니다.
-import mainBannerImg from './assets/images/homecommerce.png';
-import userAvatarImg1 from './assets/images/user-profile.png';
-import userAvatarImg2 from './assets/images/user-profile-1.jpg'; // user-profile-2.png 대신 존재하는 파일로 변경
+import mainBannerImg from '@assets/images/homecommerce.png';
+import userAvatarImg1 from '@assets/images/user-profile.png';
+import userAvatarImg2 from '@assets/images/user-profile-1.jpg'; // user-profile-2.png 대신 존재하는 파일로 변경
 
-import productImg1 from './assets/images/product-strawberry.jpg';
-import productImg2 from './assets/images/product-watermelon.jpg';
-import productImg3 from './assets/images/product-suvack.png';
-import productImg4 from './assets/images/card-small.jpg';
-import productImg5 from './assets/images/card-large.jpg';
-import productImg6 from './assets/images/card-large-1.jpg';
+import productImg1 from '@assets/images/product-strawberry.jpg';
+import productImg2 from '@assets/images/product-watermelon.jpg';
+import productImg3 from '@assets/images/product-suvack.png';
+import productImg4 from '@assets/images/card-small.jpg';
+import productImg5 from '@assets/images/card-large.jpg';
+import productImg6 from '@assets/images/card-large-1.jpg';
 
-import postImg1 from './assets/images/post-image-1.jpg';
-import postImg2 from './assets/images/home-commerce1.jpg'; // homecommerce.png -> home-commerce1.jpg
+import postImg1 from '@assets/images/post-image-1.jpg';
+import postImg2 from '@assets/images/home-commerce1.jpg'; // homecommerce.png -> home-commerce1.jpg
 
 // 1. 관심 상품 데이터 (보강)
 export const interestProducts = [
